@@ -32,5 +32,8 @@ public class MainActivity extends AppCompatActivity {
     public void buttonChangeColorClick(View view) {
         TextView tvChangeColor = findViewById(R.id.tvChangeText);
         tvChangeColor.setTextColor(Color.MAGENTA);
+
     }
+    //labas
+    //vakaras
 }
