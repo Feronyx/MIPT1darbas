@@ -41,5 +41,6 @@ public class MainActivity extends AppCompatActivity {
         TextView tvChangeColor = findViewById(R.id.tvChangeText);
         tvChangeColor.setBackgroundColor(Color.BLACK);
     }
-
+    //labas
+    //vakaras
 }
