@@ -1,5 +1,6 @@
 package com.example.mipt1darbas;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -26,5 +27,10 @@ public class MainActivity extends AppCompatActivity {
     public void buttonChangeTextClick(View view){
         TextView tvChangeText = findViewById(R.id.tvChangeText);
         tvChangeText.setText("Okayy pavyko");
+    }
+
+    public void buttonChangeColorClick(View view) {
+        TextView tvChangeColor = findViewById(R.id.tvChangeText);
+        tvChangeColor.setTextColor(Color.MAGENTA);
     }
 }
