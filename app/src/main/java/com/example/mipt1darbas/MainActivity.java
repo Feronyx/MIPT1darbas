@@ -11,6 +11,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import org.w3c.dom.Text;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -32,5 +34,10 @@ public class MainActivity extends AppCompatActivity {
     public void buttonChangeColorClick(View view) {
         TextView tvChangeColor = findViewById(R.id.tvChangeText);
         tvChangeColor.setTextColor(Color.MAGENTA);
+    }
+
+    public void buttonChangeBackroundColor(View view) {
+        TextView tvChangeColor = findViewById(R.id.tvChangeText);
+        tvChangeColor.setBackgroundColor(Color.BLACK);
     }
 }
